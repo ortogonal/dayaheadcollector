@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dayaheadcollector"
+version = "0.0.1"
+description = "Service that will query the day-a-head prices"
+authors = ["Erik Larsson <karl.erik.larsson@gmail.com>"]
+license = "GNU General Public License"
+readme = "README.md"
+repository = "https://github.com/ortogonal/sungrowreader.git"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mysql-connector-python = "^8.0"
+requests = "^2.0"
+poetry-dotenv-plugin = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
